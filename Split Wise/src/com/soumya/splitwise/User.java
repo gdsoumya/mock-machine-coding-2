@@ -3,14 +3,22 @@ package com.soumya.splitwise;
 // Defines the characteristics of a user
 public class User {
 	
-	private String name,uid,email,mob_no;
+	private String name,uid,email,mobNo;
 
-	public User(String uid, String name, String email, String mob_no) {
+	public User(String uid, String name, String email, String mobNo) {
 		super();
 		this.name = name;
 		this.uid = uid;
 		this.email = email;
-		this.mob_no = mob_no;
+		this.mobNo = mobNo;
+	}
+
+	public String getMobNo() {
+		return mobNo;
+	}
+
+	public void setMobNo(String mobNo) {
+		this.mobNo = mobNo;
 	}
 
 	public String getName() {
@@ -35,14 +43,6 @@ public class User {
 
 	public void setEmail(String email) {
 		this.email = email;
-	}
-
-	public String getMob_no() {
-		return mob_no;
-	}
-
-	public void setMob_no(String mob_no) {
-		this.mob_no = mob_no;
 	}
 	
 }

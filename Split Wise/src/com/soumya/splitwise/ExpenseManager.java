@@ -31,7 +31,7 @@ public class ExpenseManager {
 		}
 		System.out.println("UID\t\tNAME\t\tEMAIL\t\t\tMOBILE NO.");
 		users.forEach((key, value)->{
-			System.out.println(value.getUid()+"\t\t"+value.getName()+"\t\t"+value.getEmail()+"\t\t"+value.getMob_no());
+			System.out.println(value.getUid()+"\t\t"+value.getName()+"\t\t"+value.getEmail()+"\t\t"+value.getMobNo());
 		});
 	}
 	
